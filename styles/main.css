@@ -1,0 +1,129 @@
+body {
+    background-image: url("https://asset.gecdesigns.com/img/background-templates/abstract-background-design-transitioning-from-orange-to-purple-10032403-1710078711067-cover.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1 {
+    color: white;
+    font-family: Audiowide;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-family: Pixelify Sans;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    border: solid 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav p {
+    display: inline;
+    color: white;
+    font-family: Roboto;
+    color: black;
+}
+
+nav p button:hover{
+    border: 3px;
+    border-radius: 10px;
+    width: max-content;
+    background-color: red;
+
+}
+nav p button{
+    border: 3px;
+    border-radius: 5px;
+    width: max-content;
+    background-color:white;
+
+}
+
+
+.about-me {
+    display: flex;
+    justify-content:space-evenly;
+}
+.about-me p{
+    font-family: Roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.about-me h1 {
+    font-family: Audiowide;
+    color: white;
+    font-size: 40px;
+}
+
+
+.about-me-img img{
+    width: 400px;
+    height: 400px;
+    border: 1px;
+    border-radius: 20px;
+    display: flex;
+    float: right;
+}
+
+
+.projects {
+    border: 3px;
+    border-radius: 30px;
+    background-color: black;
+    width: 500px;
+    height: 400px;
+}
+
+.project-pacman{
+    display: flex;
+    justify-content:center;
+}
+
+.project-pacman img{
+    width: 300px;
+    height: 200px;
+}
+
+.project-pacman p{
+    color: white;
+    font-family: Roboto;
+}
+
+p {
+    color: white;
+    font-family: Jetbrains Mono;
+}
+
+.p-text-1 {
+    font-family: Jetbrains Mono;
+    font-size: 25px;
+}
+
+.p-text-2 {
+    font-family: Jetbrains Mono;
+    font-size: 15px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 button {
+    border: 3px;
+    border-radius: 2px;
+    background-color: blue;
+}
